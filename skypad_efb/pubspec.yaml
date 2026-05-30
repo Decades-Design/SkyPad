@@ -1,0 +1,27 @@
+name: skypad_efb
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  mapbox_maps_flutter: ^2.4.0
+  riverpod: ^3.2.1
+  flutter_riverpod: ^3.2.1
+  geolocator: ^14.0.2
+  drift: ^2.33.0
+  sqflite: ^2.4.2
+  http: ^1.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

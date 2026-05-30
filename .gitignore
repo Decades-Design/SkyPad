@@ -1,3 +1,6 @@
+# VS Code — gitignored because launch.json contains API keys
+.vscode/launch.json
+
 # Miscellaneous
 *.class
 *.lock
